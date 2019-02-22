@@ -1,4 +1,4 @@
-# Chicago DevSecOps Meetup 2019-0306
+# Chicago DevSecOps Meetup 2019-03-06
 
 It's time to launch your new product, but are you confident it's not going to crash and burn once you go-live?
 
@@ -6,4 +6,4 @@ This month, Yello Cloud Infrastructure Engineer, Jason Hernandez, will show you 
 
 During our lightning round, Jason Allen, will talk about FedRAMP. If you want to provide products to US government departments with high security requirements, then understanding FedRAMP is a must.
 
-[https://www.meetup.com/Chicago-DevSecOps/events/258713146/]
+https://www.meetup.com/Chicago-DevSecOps/events/258713146/
