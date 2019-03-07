@@ -18,6 +18,6 @@ jmeter -n -t ./cdso-test.jmx -l results.csv -e -o ./results-report/ \
   -Jjmeter.reportgenerator.overall_granularity=1000  \
   -Jjmeter.reportgenerator.apdex_satisfied_threshold=500 \
   -Jjmeter.reportgenerator.apdex_tolerated_threshold=2000 \
-  -Jjmeter.reportgenerator.exporter.html.series_filter="^(DemoSite-0)(-success|-failure)?$
+  -Jjmeter.reportgenerator.exporter.html.series_filter="^(DemoSite-0)(-success|-failure)?$"
 ```
 
