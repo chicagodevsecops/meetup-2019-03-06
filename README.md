@@ -7,3 +7,17 @@ This month, Yello Cloud Infrastructure Engineer, Jason Hernandez, will show you 
 During our lightning round, Jason Allen, will talk about FedRAMP. If you want to provide products to US government departments with high security requirements, then understanding FedRAMP is a must.
 
 https://www.meetup.com/Chicago-DevSecOps/events/258713146/
+
+#### JMeter Headless Execution
+
+You can execute the demo test using the JMeter CLI and generate a dynamic HTML report automatically
+
+``` 
+jmeter -n -t ./cdso-test.jmx -l results.csv -e -o ./results-report/ \\
+  -Jjmeter.reportgenerator.report_title="Performance Testing" \\
+  -Jjmeter.reportgenerator.overall_granularity=1000  \\
+  -Jjmeter.reportgenerator.apdex_satisfied_threshold=500 \\
+  -Jjmeter.reportgenerator.apdex_tolerated_threshold=2000 \\
+  -Jjmeter.reportgenerator.exporter.html.series_filter="^(DemoSite-0)(-success|-failure)?$
+```
+
