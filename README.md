@@ -33,6 +33,13 @@ pip install bzt
 bzt ./quick_taurus_test.yml
 ```
 
+#### Additional Resources
+
+https://jmeter.apache.org/
+https://www.blazemeter.com/blog
+https://gettaurus.org/
+https://jmeter-plugins.org/
+https://www.ubik-ingenierie.com/blog/reporting-feature-in-jmeter/
 
 
 
