@@ -21,3 +21,18 @@ jmeter -n -t ./cdso-test.jmx -l results.csv -e -o ./results-report/ \
   -Jjmeter.reportgenerator.exporter.html.series_filter="^(DemoSite-0)(-success|-failure)?$"
 ```
 
+#### Taurus Example
+
+You can execute a test plan using the Taurus yml file. Be sure to have a working Python environment with bzt PIP package installed first.
+
+```
+pip install bzt
+```
+
+```
+bzt ./quick_taurus_test.yml
+```
+
+
+
+
