@@ -10,7 +10,7 @@ https://www.meetup.com/Chicago-DevSecOps/events/258713146/
 
 #### JMeter Headless Execution
 
-You can execute the demo test using the JMeter CLI and generate a dynamic HTML report automatically. Make sure results.csv and results-report/ do not exist before running or JMeter may throw an error.
+You can execute the demo test using the JMeter CLI and generate a dynamic HTML report automatically. Make sure results.csv and results-report/ do not exist before running or JMeter may throw an error. The HTML reports will be available in the ./results-report directory in this example.
 
 ``` 
 jmeter -n -t ./cdso-test.jmx -l results.csv -e -o ./results-report/ \
